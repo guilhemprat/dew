@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dew - test</title>
+		<link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#E40010" />
+        <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no">
+       <style>
+
+body{
+background: rgb(212,230,229);
+background: radial-gradient(circle, rgba(212,230,229,1) 22%, rgba(240,221,181,1) 100%);
+}
+
+.btn {
+  height: 30vw; 
+  width: 40vw;  
+  bottom: 10%;
+  left:30%;
+  position: fixed;
+  z-index: 20;
+  font-size: 7vw;
+  border-radius: 45% 55% 70% 30% / 49% 69% 31% 51% ;
+  /*box-shadow:  -5px -5px 13px #921313, 
+             5px 5px 13px #d61d1d;
+  box-shadow: inset -2px 3px 27px -1px #ABABAB,5px 5px 5px 1px #d61d1d;*/
+  box-shadow: inset -2vh 3vh 20vh -1vh #ffc76e, 1vh 1vh 1vh 1vh #b2b8ad;
+  background-color:#daf2ee;
+  color: #cee0dd;
+  padding-top: 15vw;
+  text-align: center;
+  cursor: pointer;
+  animation: blob-rtl 3200ms linear infinite alternate;
+}
+
+@keyframes blob-rtl {
+   0%{border-radius: 45% 55% 70% 30% / 49% 69% 31% 51% ;bottom: 10%;}
+   20%{border-radius: 36% 64% 43% 57% / 49% 43% 57% 51% ;}
+  40%{border-radius: 22% 78% 43% 57% / 65% 28% 72% 35% ;}
+  60%{border-radius: 58% 42% 29% 71% / 73% 28% 72% 27% ;bottom: 12%;}
+  80%{border-radius: 51% 49% 56% 44% / 34% 45% 55% 66% ;}
+  100%{border-radius: 48% 52% 40% 60% / 53% 66% 34% 47% ;bottom: 10.5%;}
+}
+@media screen and (max-width: 800px) {
+	.fl-page-nav .navbar-toggle * {
+  color: #c70919 !important;
+}
+	#content{padding-left:3vw;width:90%; font-size:12vw;color: #c70919;}
+}
+</style>
+    </head>
+    
+    <body>
+
+       <div class="btn" id="batteryok"></div>
+
+
+	<script src="vendor/js/jquery-3.2.1.min.js"></script>
+    <script language="javascript">
+
+	</script>  
+
+    </body>
+</html>
+
+  
